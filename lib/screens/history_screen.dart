@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+class HistoryScreen extends StatelessWidget {
+  const HistoryScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Riwayat Transaksi'),
+        backgroundColor: const Color(0xFFFF2B6D),
+        foregroundColor: Colors.white,
+      ),
+      body: const Center(
+        child: Text('Belum ada riwayat transaksi.'),
+      ),
+    );
+  }
+}
